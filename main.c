@@ -18,10 +18,10 @@ double a, b, c, delta, x1, x2;
     if (delta > 0) {
         x1 = (-b + sqrt(delta)) / (2 * a);
         x2 = (-b - sqrt(delta)) / (2 * a);
-        printf("Duas raizes reais: x1 = %.2lf e x2 = %.2lf\n", x1, x2);
+        printf("x1 = %.2lf e x2 = %.2lf\n", x1, x2);
     } else if (delta == 0) {
         x1 = -b / (2 * a);
-        printf("Uma raiz real (dupla): x1 = x2 = %.2lf\n", x1);
+        printf("Uma raiz real: x1 = x2 = %.2lf\n", x1);
     } else {
         printf("Nao existem raizes reais (delta negativo).\n");
     }
