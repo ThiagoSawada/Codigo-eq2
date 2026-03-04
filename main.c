@@ -9,6 +9,7 @@ double a, b, c, delta, x1, x2;
 
     if (a == 0) {
         printf("O (a) deve ser diferente de zero.\n");
+        return 0;
     }
 
     delta = (b * b) - (4 * a * c);
